@@ -1,0 +1,17 @@
+@mixin respond($breakpoint) {
+    @if $breakpoint == phone {
+        @media (max-width: $mobile-breakpoint) { @content };    // 600px/16px default font size = 37.5em
+    }
+
+    @if $breakpoint == tablet-portrait {
+        @media (max-width: $tablet-portrait) { @content };     // 900px
+    }
+
+    @if $breakpoint == tablet-landscape {
+        @media (max-width: $tablet-landscape) { @content };   // 1200px
+    }
+
+    @if $breakpoint == big-desktop {
+        @media (min-width: $big-desktop) { @content };    // 1800px
+    }
+}

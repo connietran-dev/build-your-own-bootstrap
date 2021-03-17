@@ -1,4 +1,9 @@
 $color-primary: pink;
 $color-secondary: green;
 
-$font-size-baseline: 18px;
+$font-size-baseline: 100%;
+
+$mobile-breakpoint: 37.5em; // 600px
+$tablet-portrait: 56.25em;  // 900px
+$tablet-landscape: 75em;    // 1200px
+$big-desktop: 112.5em;      // 1800px
