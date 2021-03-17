@@ -1,9 +1,9 @@
 {
-  "name": "build-your-own-bootstrap",
-  "version": "1.0.0",
+  "name": "initer-css",
+  "version": "0.0.1",
+  "description": "A Bootstrap-like CSS framework built from scratch & made with <3",
   "main": "index.js",
-  "author": "Monarch Wadia",
-  "private": true,
+  "author": "Connie Tran",
   "license": "MIT",
   "workspaces": [
     "packages/*"
